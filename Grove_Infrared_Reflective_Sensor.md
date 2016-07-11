@@ -6,8 +6,8 @@
 ![500px-Infrared_Reflective_Sensor-1](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/500px-Infrared_Reflective_Sensor-1.JPG?raw=true)
 
 **Grove - Infrared Reflective Sensor** is used to detect the presence of an object within a specific range. The sensor consists of an IR LED and a photosensor (phototransistor) pair. The light emitted by the IR LED gets reflected by any object placed in front of the sensor and this reflection is detected by the photosensor(phototransistor). Any white (or lighter) colored surface reflects more than black (or darker) colored surface.
-When the reflected light is detected, it produces **Digital** **HIGH** (or** Binary 1**) output on the **SIG** pin. The on-board LED indicator will also glow. If no reflection is detected or if the object is too far from the sensor, the output on the **SIG** pin stays at **Digital LOW** (**Binary 0**). The on-board LED indicator will be off as well. The detectable range of this sensor is 4–16 mm. The module incorporates a Rail-to-Rail Operational Amplifier to amplify the output of phototransistor. There is a potentiometer which can be used to adjust the gain of the amplifier, that is, sensitivity of detection.
-With this sensor, you can build the following (but not limited to) applications: **line following robots**, **optical encoders **and **object counting applications**.
+When the reflected light is detected, it produces **Digital HIGH** (or **Binary 1**) output on the **SIG** pin. The on-board LED indicator will also glow. If no reflection is detected or if the object is too far from the sensor, the output on the **SIG** pin stays at **Digital LOW** (**Binary 0**). The on-board LED indicator will be off as well. The detectable range of this sensor is 4–16 mm. The module incorporates a Rail-to-Rail Operational Amplifier to amplify the output of phototransistor. There is a potentiometer which can be used to adjust the gain of the amplifier, that is, sensitivity of detection.
+With this sensor, you can build the following (but not limited to) applications: **line following robots**,  **optical encoders** and **object counting applications**.
 
 !!!Note
     This product is also mildly sensitive to non-IR radiations and hence any bright light on photosensor impairs or disturbs IR light detection.
@@ -83,7 +83,7 @@ This sensor can be used to help a robotic car follow a black line.
 
 <ol>1. Adjusting </ol>
 
-Place the sensor such that there is 12mm between reflective photosensor and white (or light) colored surface.
+<ol>Place the sensor such that there is 12mm between reflective photosensor and white (or light) colored surface.</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-4.JPG?raw=true)
 
@@ -102,11 +102,11 @@ Place the sensor such that there is 12mm between reflective photosensor and whit
 
 #### Rotary Speed Detection ####
 Let us implement simple optical encoder to detect the speed of a motor
-<ol>1. Connect the Infrared Reflective Sensor to the **D2 port** of Grove - Base Shield like this:</ol>
+<ol>1. Connect the Infrared Reflective Sensor to the **D2 port** of Grove - Base Shield like this:
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-11.JPG?raw=true)
 
-<ol>2. Attach a round, white paper plate (with a black line marked on it) to the motor. Place the sensor near this rotatory encoder. Run the motor.</ol>
+2. Attach a round, white paper plate (with a black line marked on it) to the motor. Place the sensor near this rotatory encoder. Run the motor.</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/500px-Infrared_Reflective_Sensor-8.JPG?raw=true)
 

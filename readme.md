@@ -1,14 +1,14 @@
  Grove - Infrared Reflective Sensor
 ---
 
-**SKU**: [105020011](LINK)
+**SKU**: [105020011](https://www.seeedstudio.com/item_detail.html?p_id=1230)
 
 **Wiki Link**: [wiki.seeed.cc](http://wiki.seeed.cc)
 
 
 ###Change Log:
 
-**2016-7-7:** create repos by Chaos (chao.zhang@seeed.cc)
+**2016-7-11:** create repos by Chaos (chao.zhang@seeed.cc)
 
 
 --------

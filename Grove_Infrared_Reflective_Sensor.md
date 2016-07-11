@@ -15,7 +15,7 @@ With this sensor, you can build the following (but not limited to) applications:
 ### Version Tracker ###
 
 Product version| Release date	|Support status	| Notes
-:---:|:---:|:---:|:---:
+---:|:---:|:---:|:---:
 Versions older than v1.2	|  June 2012‎	|Not supported	|None
 Version 1.2(current version)	|April 2016	|Supported|	None
 
@@ -45,7 +45,7 @@ Weight|	4 g
 ### Platform supported ###
 
 Platform|	Seeeduino/Arduino	|Rasberry Pi	|LinkIt One	|Beaglebone
-:---:|:---:|:---:|:---:|:---:|
+---:|:---:|:---:|:---:|:---:|
 **Supported status**	|Supported	|Supported (using GrovePi)	|Not Supported|	Supported(only with **[Grove Base Cape for Beaglebone](https://www.seeedstudio.com/item_detail.html?p_id=2644)**)
 
 !!!Notes	
@@ -64,7 +64,7 @@ Platform|	Seeeduino/Arduino	|Rasberry Pi	|LinkIt One	|Beaglebone
 ### Package includes ###
 
 Parts name	|Quantity
-:---:|:---:
+---:|:---:
 Grove - Infrared Reflective Sensor	|1 piece
 Grove cable	|1 piece
 
@@ -73,27 +73,28 @@ Let us see how to implement few basic applications with this module:
 
 ### With Arduino ###
 #### Materials required ####
-- 1x Grove Infrared Reflective Sensor 
-- 1x Arduino UNO (other compatible boards) 
-- 1x Grove cable 
-- 1x Grove Base shield
+- 1x **[Grove Infrared Reflective Sensor ](https://www.seeedstudio.com/item_detail.html?p_id=1230)**
+- 1x **[Arduino UNO](https://www.seeedstudio.com/item_detail.html?p_id=694)** (other compatible boards) 
+- 1x **[Grove cable ](https://www.seeedstudio.com/item_detail.html?p_id=925)**
+- 1x **[Grove Base shield](https://www.seeedstudio.com/item_detail.html?p_id=754)**
 
 #### Line Following ####
 This sensor can be used to help a robotic car follow a black line.
 
-<ol>1. Adjusting
+<ol>1. Adjusting </ol>
+
 Place the sensor such that there is 12mm between reflective photosensor and white (or light) colored surface.
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-4.JPG?raw=true)
 
-<ol>2. Adjust the potentiometer with a screwdriver to change the sensitivity of reflective photosensor, until the LED indicator glows. As your rotate clockwise, the reflective photosensor will be more sensitive to light. 
+<ol>2. Adjust the potentiometer with a screwdriver to change the sensitivity of reflective photosensor, until the LED indicator glows. As your rotate clockwise, the reflective photosensor will be more sensitive to light. </ol>
 
 !!!Note 
     Use a proper screw-driver to adjust the tiny potentiometer. Applying heavy pressure or frequent adjustments might damage the wiper of the potentiometer.
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-5.JPG?raw=true)
 
-<ol>3. By maintaining the vertical distance, move the sensor horizontally above the black line. The indicator LED must go off over the black line. If it is still on, adjust the potentiometer until it is off.
+<ol>3. By maintaining the vertical distance, move the sensor horizontally above the black line. The indicator LED must go off over the black line. If it is still on, adjust the potentiometer until it is off.</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-6.JPG?raw=true)
 
@@ -101,19 +102,19 @@ Place the sensor such that there is 12mm between reflective photosensor and whit
 
 #### Rotary Speed Detection ####
 Let us implement simple optical encoder to detect the speed of a motor
-<ol>1. Connect the Infrared Reflective Sensor to the **D2 port** of Grove - Base Shield like this:
+<ol>1. Connect the Infrared Reflective Sensor to the **D2 port** of Grove - Base Shield like this:</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-11.JPG?raw=true)
 
-<ol>2. Attach a round, white paper plate (with a black line marked on it) to the motor. Place the sensor near this rotatory encoder. Run the motor.
+<ol>2. Attach a round, white paper plate (with a black line marked on it) to the motor. Place the sensor near this rotatory encoder. Run the motor.</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/500px-Infrared_Reflective_Sensor-8.JPG?raw=true)
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/500px-Infrared_Reflective_Sensor-9.JPG?raw=true)
 
-<ol>3. Download the library **[Arduino timer1 library](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/raw/master/resource/TimerOne-ArduinoLib.zip)** and add it into the libraries file of Arduino IDE. A **guide** about how to run our demo code.
+<ol>3. Download the library **[Arduino timer1 library](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/raw/master/resource/TimerOne-ArduinoLib.zip)** and add it into the libraries file of Arduino IDE. A **[<span style ="color: red">guide</span>](http://www.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github)** about how to run our demo code.</ol>
 
-<ol>4. Upload the demo code to your Arduino/Seeeduino.
+<ol>4. Upload the demo code to your Arduino/Seeeduino.</ol>
 
 ```
 unsigned int counter=0;
@@ -143,7 +144,7 @@ void loop()
 }
 ```
 
-<ol>5. Open the Serial Monitor to read the data.
+<ol>5. Open the Serial Monitor to read the data.</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/400px-Infrared_Reflective_Sensor-10.JPG?raw=true)
 
@@ -156,20 +157,20 @@ void loop()
 - 1x **[Grove cable](https://www.seeedstudio.com/item_detail.html?p_id=925)** 
 
 #### Hardware Connections and Software Work ####
-<ol>1. You should have got a Raspberry Pi and a GrovePi or GrovePi+. In this demo, we use GrovePi.
+<ol>1. You should have got a Raspberry Pi and a GrovePi or GrovePi+. In this demo, we use GrovePi.</ol>
 
-<ol>2. We assume you have built the development environment successfully. If not, follow this **[<span style="color: red">tutorial</span>](http://www.seeedstudio.com/wiki/GrovePi%2B#Introducing_the_GrovePi.2B)**.
+<ol>2. We assume you have built the development environment successfully. If not, follow this **[<span style="color: red">tutorial</span>](http://www.seeedstudio.com/wiki/GrovePi%2B#Introducing_the_GrovePi.2B)**.</ol>
 
-<ol>3. Connection:
-Plug Grove - Infrared Reflective Sensor into port **D4** on GrovePi with **[Grove cables](https://www.seeedstudio.com/item_detail.html?p_id=925)**
+<ol>3. Connection:</ol>
+<ol>Plug Grove - Infrared Reflective Sensor into port **D4** on GrovePi with **[Grove cables](https://www.seeedstudio.com/item_detail.html?p_id=925)**</ol>
 
-<ol>4. Navigate to the demos' directory, run the following command in a terminal:
+<ol>4. Navigate to the demos' directory, run the following command in a terminal:</ol>
 
-<ol>**cd yourpath/GrovePi/Software/Python/**
+<ol>**cd yourpath/GrovePi/Software/Python/**</ol>
 
-<ol>Run the command in a terminal:
+<ol>Run the command in a terminal:</ol>
 
-<ol>**nano grove_infrared_reflective_sensor.py**
+<ol>**nano grove_infrared_reflective_sensor.py**</ol>
 
 Copy and save the following code into it:
 
@@ -197,9 +198,9 @@ while True:
         print "Error"
 ```
 
-<ol>5. To run the demo, execute the following command in terminal:
+<ol>5. To run the demo, execute the following command in terminal:</ol>
 
-<ol>**sudo python grove_infrared_reflective_sensor.py**
+<ol>**sudo python grove_infrared_reflective_sensor.py**</ol>
 
 
 ## Resources ##

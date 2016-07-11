@@ -102,11 +102,11 @@ This sensor can be used to help a robotic car follow a black line.
 
 #### Rotary Speed Detection ####
 Let us implement simple optical encoder to detect the speed of a motor
-<ol>1. Connect the Infrared Reflective Sensor to the **D2 port** of Grove - Base Shield like this:
+<ol>1. Connect the Infrared Reflective Sensor to the **D2 port** of Grove - Base Shield like this:</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/300px-Infrared_Reflective_Sensor-11.JPG?raw=true)
 
-2. Attach a round, white paper plate (with a black line marked on it) to the motor. Place the sensor near this rotatory encoder. Run the motor.</ol>
+<ol>2. Attach a round, white paper plate (with a black line marked on it) to the motor. Place the sensor near this rotatory encoder. Run the motor.</ol>
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/500px-Infrared_Reflective_Sensor-8.JPG?raw=true)
 

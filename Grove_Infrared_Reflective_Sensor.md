@@ -113,7 +113,7 @@ Let us implement simple optical encoder to detect the speed of a motor
 
 ![](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/blob/master/image/500px-Infrared_Reflective_Sensor-9.JPG?raw=true)
 
-3). Download the library **[Arduino timer1 library](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/raw/master/resource/TimerOne-ArduinoLib.zip)** and add it into the libraries file of Arduino IDE. A **[<span style ="color: red">guide</span>](http://www.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github)** about how to run our demo code.
+3). Download the library **[Arduino timer1 library](https://github.com/SeeedDocument/Grove_Infrared_Reflective_Sensor/raw/master/resource/TimerOne-ArduinoLib.zip)** and add it into the libraries file of Arduino IDE. A **[<font color="red">guide</font>](http://www.seeedstudio.com/wiki/Guide_to_use_demos_downloaded_from_Seeed%27s_Github)** about how to run our demo code.
 
 4). Upload the demo code to your Arduino/Seeeduino.
 
